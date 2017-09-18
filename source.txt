@@ -1,0 +1,97 @@
+Camera setup:
+https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/
+
+PIR sensor setup:
+https://diyhacking.com/raspberry-pi-gpio-control/
+
+Ultrasonic distance sensor (up to 6 m):
+http://www.maxbotix.com/articles/074_raspPi.txt
+http://www.maxbotix.com/Raspberry-Pi-with-Ultrasonic-Sensors-144/
+http://maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf
+
+Time of flight distance sensor:
+https://pypi.python.org/pypi/rpisensors/0.2.1
+
+///
+
+Temperature sensor:
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/ds18b20
+
+Light sensor:
+https://github.com/ControlEverythingCommunity/TSL2561
+
+humidity sensor:
+https://www.youtube.com/watch?v=IHTnU1T8ETk
+
+///
+
+
+run command in background after logging out ssh session:
+
+nohup cmd > /dev/null 2<&1&
+http://www.thegeekstuff.com/2010/12/5-ways-to-execute-linux-command
+
+ssh to pi via ethernet:
+//ssh pi@169.254.180.143  (pi1)
+ssh pi@169.254.152.101  (pi1)
+ssh pi@169.254.180.144  (pi2) 
+https://embeddedday.com/projects/raspberry-pi/basics/direct-connection-to-pc/
+
+
+ssh to pi via wired school network:
+ssh -p2222 pi@pi.eng.cooper.edu
+ssh pi@pi2.eng.cooper.edu
+
+ssh to pi via wifi (port tunnelling):
+// set up reverse port forwarding on pi
+ssh -R3329:localhost:22 bao2@gwip.cooper.edu while date\;do sleep 60\;done
+
+// shh to gwip machine, which then redirect package to pi
+ssh -t -p 8199 bao2@gwip.cooper.edu ssh -t -p3329 pi@localhost
+
+// multiple clients on same port
+https://www.linuxquestions.org/questions/linux-networking-3/reverse-ssh-multiple-clients-915176/
+
+// persistent connection
+https://www.tunnelsup.com/raspberry-pi-phoning-home-using-a-reverse-remote-ssh-tunnel/
+https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/
+
+// run script on start-up
+https://www.dexterindustries.com/howto/auto-run-python-programs-on-the-raspberry-pi/
+https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=132637
+https://blog.startingelectronics.com/auto-start-a-desktop-application-on-the-rapberry-pi/
+
+
+scp:
+// copy from remote host to local host
+scp your_username@remotehost.edu:foobar.txt /some/local/directory
+
+// copy from local host to remote host
+scp foobar.txt your_username@remotehost.edu:/some/remote/directory
+
+
+aircrack:
+sudo airmon-ng start wlan1 (external wifi-adapter)
+it opens interface mon0
+both airodump and tshark could use interface mon0
+sudo airmon-ng stop mon0 (stop monitor mode)
+
+
+using text-based web browser to log into captive port:
+install lynx: sudo apt-get install lynx
+lynx cooper.edu
+
+
+opencv:
+https://github.com/anandsinghkunwar/pedestrian-counter
+https://github.com/LukashenkoEvgeniy/People-Counter/blob/master/PeopleCounterMain.py
+http://www.femb.com.mx/people-counter/people-counter-8-finding-movement/
+http://www.pyimagesearch.com/2016/01/04/unifying-picamera-and-cv2-videocapture-into-a-single-class-with-opencv/
+http://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/
+
+// speed up pi camera:
+http://www.pyimagesearch.com/2015/12/28/increasing-raspberry-pi-fps-with-python-and-opencv/
+
+install opencv on raspberry pi:
+http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/
+
