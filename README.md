@@ -5,4 +5,4 @@
 ***
   :point_right:This has been done by collecting data about WiFi MAC Addresses, Bluetooth addresses, video and picture captured by attached cameras. The information about humidity, temperature, and ambient lighting level is also collected for data visualization as well as later application of energy saving. Through the sensor system, back-end processing and front-end visualization, this project demonstrated a fully functionable and a complete Internet-of-Things system.
  
-***A more advanced version has been built, but reserved for proprietary rights. ***
+***A more advanced version has been built, but reserved for proprietary rights.***
