@@ -1,5 +1,5 @@
-# Cooper_IOT-
-## Internet Of Things(IOT) system acquire population data and environment parameters for The Cooper Union for the Advancement of Science and Art  
+# Cooper-IoT
+## Internet Of Things(IoT) system acquire population data and environment parameters for The Cooper Union for the Advancement of Science and Art  
 
   This project involves tracking the population in regards of number of occupants in a building as well as the population flow. The goal is to locate and pinpoint occupants’ position and the test is firstly conducted in 41 Cooper Square and will be extended to train station as a larger application.
 ***
