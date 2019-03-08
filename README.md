@@ -1,7 +1,7 @@
 # Cooper-IoT
 Internet Of Things(IoT) system acquire population data and environment parameters for The Cooper Union for the Advancement of Science and Art  
 
-Related 3D Telepresence Project could be found at [here](https://github.com/ZhekaiJin/VR-TELE)
+Related 3D Telepresence Project, VR TELE, could be found at [here](https://github.com/ZhekaiJin/VR-TELE).
 
 ## Demo
 [![WIfi Tracking in action](documentation/demo.gif)](https://zhekaijin.github.io/videos/WiFiTracking.mp4)
