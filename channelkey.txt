@@ -1,3 +1,0 @@
-sub  key :sub-c-e1ee380e-d3b8-11e7-b83f-86d028961179
-pub key:"pub-c-012ea47d-f770-4c04-8176-1cd817b319b4
-channel name :scott
