@@ -1,7 +1,9 @@
 # Cooper-IoT
-Internet Of Things(IoT) system acquire population data and environment parameters for The Cooper Union for the Advancement of Science and Art
+Cooper-IoT is a distributed Internet Of Things(IoT) system acquire population data and environment parameters for energy saving deployed at the [Cooper Union](https://cooper.edu).
 ![](doc/pic.png)
-Related 3D Telepresence Project, VR TELE, could be found at [here](https://github.com/ZhekaiJin/VR-TELE).
+*<br />Monitoring dashboard for Cooper-IOT*
+
+:round_pushpin: Related 3D Telepresence Project, VR TELE, could be found at [here](https://github.com/ZhekaiJin/VR-TELE).
 
 ## Demo
 [![WIfi Tracking in action](documentation/demo.gif)](https://zhekaijin.github.io/videos/WiFiTracking.mp4)
@@ -15,16 +17,11 @@ Ozbay, Kaan, Neveen Shlayan, and Hani Nassif. **“Real-Time Estimation of Trans
 
 
 ## Project Description
-This project involves tracking the population in regards of number of occupants in a building as well as the population flow. The goal is to locate and pinpoint occupants’ position and the test is firstly conducted in 41 Cooper Square and will be extended to train station as a larger application.
+This project involves tracking the population in regards of number of occupants in a building as well as the population flow. The goal is to locate and pinpoint occupants’ positions and thus aviod unnecessary energy usage in electricity, lighting, etc. The system was tested at 41 Cooper Square and will be extended to train station as a larger application.
 
-***
-  :point_right:This has been done by collecting data about WiFi MAC Addresses, Bluetooth addresses, video and picture captured by attached cameras. The information about humidity, temperature, and ambient lighting level is also collected for data visualization as well as later application of energy saving. Through the sensor system, back-end processing and front-end visualization, this project demonstrated a fully functionable and a complete Internet-of-Things system.
+This has been done by collecting data about WiFi MAC Addresses, Bluetooth addresses, video and picture captured by attached cameras. The information about humidity, temperature, and ambient lighting level is also collected for data visualization as well as application of energy saving. Through the wireless sensor network, data warehousing and the friendly visualization, we presented a fully functionable and general-purpose IoT system.
  
-***A more advanced version has been built, but reserved for proprietary rights.***
-More info could be found at publication:
-* [Exploring pedestrian Bluetooth and WiFi detection at public transportation terminals](https://ieeexplore.ieee.org/document/7795559)
-* [Real-time Estimation of Transit Origin-Destination Patterns and Delays Using Low-Cost Ubiquitous Advanced Technologies](http://www.utrc2.org/research/projects/real-time-estimation-transit-origin)
-* [Final report](http://www.utrc2.org/publications/real-time-estimation-transit-od-patterns)
+***A more advanced version has been built, but reserved for proprietary rights.*** More info could be found at publications listed above.
 
 ## Acknowledgments
 * Thanks for the mentorship and support from our principal investigator **Dr. Neveen Shlayan**.
