@@ -1,5 +1,6 @@
 # Cooper-IoT
 Cooper-IoT is a distributed Internet Of Things(IoT) system acquire population data and environment parameters for energy saving deployed at the [Cooper Union](https://cooper.edu).
+
 ![](doc/pic1.png)
 *<br />Monitoring dashboard for Cooper-IOT*
 
