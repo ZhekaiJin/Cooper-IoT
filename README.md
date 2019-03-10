@@ -1,12 +1,12 @@
 # Cooper-IoT
 Cooper-IoT is a distributed Internet Of Things(IoT) system acquire population data and environment parameters for energy saving deployed at the [Cooper Union](https://cooper.edu).
-![](doc/pic.png)
+![](doc/pic1.png)
 *<br />Monitoring dashboard for Cooper-IOT*
 
 :round_pushpin: Related 3D Telepresence Project, VR TELE, could be found at [here](https://github.com/ZhekaiJin/VR-TELE).
 
 ## Demo
-[![WIfi Tracking in action](documentation/demo.gif)](https://zhekaijin.github.io/videos/WiFiTracking.mp4)
+[![WIfi Tracking in action](doc/demo.gif)](https://zhekaijin.github.io/videos/WiFiTracking.mp4)
 *<br />WIFI tracking in acion (click on the image to view the full video)*
 
 ## Related Publications
